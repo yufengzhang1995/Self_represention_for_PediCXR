@@ -1,0 +1,307 @@
+INFO:ssl_experiment:The model has been loaded.
+INFO:ssl_experiment:The model has been initialized.
+INFO:ssl_experiment:Running model on 2 GPUs
+2023-10-20 10:20:56.118261: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+DEBUG:ssl_experiment:Train Epoch: 1 [0/3045 (0%)] Loss: 3.999168
+DEBUG:ssl_experiment:Train Epoch: 1 [152/3045 (5%)] Loss: 3.006073
+DEBUG:ssl_experiment:Train Epoch: 1 [304/3045 (10%)] Loss: 2.466980
+DEBUG:ssl_experiment:Train Epoch: 1 [456/3045 (15%)] Loss: 2.244564
+DEBUG:ssl_experiment:Train Epoch: 1 [608/3045 (20%)] Loss: 2.134551
+DEBUG:ssl_experiment:Train Epoch: 1 [760/3045 (25%)] Loss: 2.048610
+DEBUG:ssl_experiment:Train Epoch: 1 [912/3045 (30%)] Loss: 1.994402
+DEBUG:ssl_experiment:Train Epoch: 1 [1064/3045 (35%)] Loss: 1.969307
+DEBUG:ssl_experiment:Train Epoch: 1 [1216/3045 (40%)] Loss: 1.952088
+DEBUG:ssl_experiment:Train Epoch: 1 [1368/3045 (45%)] Loss: 1.894079
+DEBUG:ssl_experiment:Train Epoch: 1 [1520/3045 (50%)] Loss: 1.868358
+DEBUG:ssl_experiment:Train Epoch: 1 [1672/3045 (55%)] Loss: 1.864127
+DEBUG:ssl_experiment:Train Epoch: 1 [1824/3045 (60%)] Loss: 1.853720
+DEBUG:ssl_experiment:Train Epoch: 1 [1976/3045 (65%)] Loss: 1.886093
+DEBUG:ssl_experiment:Train Epoch: 1 [2128/3045 (70%)] Loss: 1.840377
+DEBUG:ssl_experiment:Train Epoch: 1 [2280/3045 (75%)] Loss: 1.835570
+DEBUG:ssl_experiment:Train Epoch: 1 [2432/3045 (80%)] Loss: 1.823592
+DEBUG:ssl_experiment:Train Epoch: 1 [2584/3045 (85%)] Loss: 1.830061
+DEBUG:ssl_experiment:Train Epoch: 1 [2736/3045 (90%)] Loss: 1.821429
+DEBUG:ssl_experiment:Train Epoch: 1 [2888/3045 (95%)] Loss: 1.790595
+DEBUG:ssl_experiment:Train Epoch: 1 [3040/3045 (100%)] Loss: 1.761240
+INFO:ssl_experiment:    epoch          : 1
+INFO:ssl_experiment:    loss           : 2.043275542133939
+INFO:ssl_experiment:    average_std    : 0.011559082586960546
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 1.8113695491586952
+INFO:ssl_experiment:Saving checkpoint on epoch 1 ...
+INFO:ssl_experiment:Saving current best: checkpoint_best.pth ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 2 [0/3045 (0%)] Loss: 1.764646
+DEBUG:ssl_experiment:Train Epoch: 2 [152/3045 (5%)] Loss: 1.588153
+DEBUG:ssl_experiment:Train Epoch: 2 [304/3045 (10%)] Loss: 1.357629
+DEBUG:ssl_experiment:Train Epoch: 2 [456/3045 (15%)] Loss: 1.019341
+DEBUG:ssl_experiment:Train Epoch: 2 [608/3045 (20%)] Loss: 1.060775
+DEBUG:ssl_experiment:Train Epoch: 2 [760/3045 (25%)] Loss: 0.699313
+DEBUG:ssl_experiment:Train Epoch: 2 [912/3045 (30%)] Loss: 0.711798
+DEBUG:ssl_experiment:Train Epoch: 2 [1064/3045 (35%)] Loss: 0.795595
+DEBUG:ssl_experiment:Train Epoch: 2 [1216/3045 (40%)] Loss: 0.545863
+DEBUG:ssl_experiment:Train Epoch: 2 [1368/3045 (45%)] Loss: 0.528066
+DEBUG:ssl_experiment:Train Epoch: 2 [1520/3045 (50%)] Loss: 0.445066
+DEBUG:ssl_experiment:Train Epoch: 2 [1672/3045 (55%)] Loss: 0.445642
+DEBUG:ssl_experiment:Train Epoch: 2 [1824/3045 (60%)] Loss: 0.535477
+DEBUG:ssl_experiment:Train Epoch: 2 [1976/3045 (65%)] Loss: 0.367027
+DEBUG:ssl_experiment:Train Epoch: 2 [2128/3045 (70%)] Loss: 0.366382
+DEBUG:ssl_experiment:Train Epoch: 2 [2280/3045 (75%)] Loss: 0.306774
+DEBUG:ssl_experiment:Train Epoch: 2 [2432/3045 (80%)] Loss: 0.342714
+DEBUG:ssl_experiment:Train Epoch: 2 [2584/3045 (85%)] Loss: 0.362319
+DEBUG:ssl_experiment:Train Epoch: 2 [2736/3045 (90%)] Loss: 0.375992
+DEBUG:ssl_experiment:Train Epoch: 2 [2888/3045 (95%)] Loss: 0.301671
+DEBUG:ssl_experiment:Train Epoch: 2 [3040/3045 (100%)] Loss: 0.378086
+INFO:ssl_experiment:    epoch          : 2
+INFO:ssl_experiment:    loss           : 0.6393342539056377
+INFO:ssl_experiment:    average_std    : 0.012305147539708024
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 0.4923415128977129
+INFO:ssl_experiment:Saving checkpoint on epoch 2 ...
+INFO:ssl_experiment:Saving current best: checkpoint_best.pth ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 3 [0/3045 (0%)] Loss: 0.256549
+DEBUG:ssl_experiment:Train Epoch: 3 [152/3045 (5%)] Loss: 0.234700
+DEBUG:ssl_experiment:Train Epoch: 3 [304/3045 (10%)] Loss: 0.293855
+DEBUG:ssl_experiment:Train Epoch: 3 [456/3045 (15%)] Loss: 0.245860
+DEBUG:ssl_experiment:Train Epoch: 3 [608/3045 (20%)] Loss: 0.262995
+DEBUG:ssl_experiment:Train Epoch: 3 [760/3045 (25%)] Loss: 0.286508
+DEBUG:ssl_experiment:Train Epoch: 3 [912/3045 (30%)] Loss: 0.238328
+DEBUG:ssl_experiment:Train Epoch: 3 [1064/3045 (35%)] Loss: 0.201663
+DEBUG:ssl_experiment:Train Epoch: 3 [1216/3045 (40%)] Loss: 0.266867
+DEBUG:ssl_experiment:Train Epoch: 3 [1368/3045 (45%)] Loss: 0.215631
+DEBUG:ssl_experiment:Train Epoch: 3 [1520/3045 (50%)] Loss: 0.251770
+DEBUG:ssl_experiment:Train Epoch: 3 [1672/3045 (55%)] Loss: 0.199453
+DEBUG:ssl_experiment:Train Epoch: 3 [1824/3045 (60%)] Loss: 0.188697
+DEBUG:ssl_experiment:Train Epoch: 3 [1976/3045 (65%)] Loss: 0.181703
+DEBUG:ssl_experiment:Train Epoch: 3 [2128/3045 (70%)] Loss: 0.178288
+DEBUG:ssl_experiment:Train Epoch: 3 [2280/3045 (75%)] Loss: 0.178528
+DEBUG:ssl_experiment:Train Epoch: 3 [2432/3045 (80%)] Loss: 0.206316
+DEBUG:ssl_experiment:Train Epoch: 3 [2584/3045 (85%)] Loss: 0.206663
+DEBUG:ssl_experiment:Train Epoch: 3 [2736/3045 (90%)] Loss: 0.196702
+DEBUG:ssl_experiment:Train Epoch: 3 [2888/3045 (95%)] Loss: 0.186288
+DEBUG:ssl_experiment:Train Epoch: 3 [3040/3045 (100%)] Loss: 0.161386
+INFO:ssl_experiment:    epoch          : 3
+INFO:ssl_experiment:    loss           : 0.2257615722263192
+INFO:ssl_experiment:    average_std    : 0.012977619253539394
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 0.38817376224692707
+INFO:ssl_experiment:Saving checkpoint on epoch 3 ...
+INFO:ssl_experiment:Saving current best: checkpoint_best.pth ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 4 [0/3045 (0%)] Loss: 0.177934
+DEBUG:ssl_experiment:Train Epoch: 4 [152/3045 (5%)] Loss: 0.180228
+DEBUG:ssl_experiment:Train Epoch: 4 [304/3045 (10%)] Loss: 0.216095
+DEBUG:ssl_experiment:Train Epoch: 4 [456/3045 (15%)] Loss: 0.144995
+DEBUG:ssl_experiment:Train Epoch: 4 [608/3045 (20%)] Loss: 0.171323
+DEBUG:ssl_experiment:Train Epoch: 4 [760/3045 (25%)] Loss: 0.238685
+DEBUG:ssl_experiment:Train Epoch: 4 [912/3045 (30%)] Loss: 0.145017
+DEBUG:ssl_experiment:Train Epoch: 4 [1064/3045 (35%)] Loss: 0.144613
+DEBUG:ssl_experiment:Train Epoch: 4 [1216/3045 (40%)] Loss: 0.163414
+DEBUG:ssl_experiment:Train Epoch: 4 [1368/3045 (45%)] Loss: 0.138495
+DEBUG:ssl_experiment:Train Epoch: 4 [1520/3045 (50%)] Loss: 0.165476
+DEBUG:ssl_experiment:Train Epoch: 4 [1672/3045 (55%)] Loss: 0.164294
+DEBUG:ssl_experiment:Train Epoch: 4 [1824/3045 (60%)] Loss: 0.124122
+DEBUG:ssl_experiment:Train Epoch: 4 [1976/3045 (65%)] Loss: 0.158128
+DEBUG:ssl_experiment:Train Epoch: 4 [2128/3045 (70%)] Loss: 0.162127
+DEBUG:ssl_experiment:Train Epoch: 4 [2280/3045 (75%)] Loss: 0.175486
+DEBUG:ssl_experiment:Train Epoch: 4 [2432/3045 (80%)] Loss: 0.148490
+DEBUG:ssl_experiment:Train Epoch: 4 [2584/3045 (85%)] Loss: 0.142603
+DEBUG:ssl_experiment:Train Epoch: 4 [2736/3045 (90%)] Loss: 0.169631
+DEBUG:ssl_experiment:Train Epoch: 4 [2888/3045 (95%)] Loss: 0.140348
+DEBUG:ssl_experiment:Train Epoch: 4 [3040/3045 (100%)] Loss: 0.124627
+INFO:ssl_experiment:    epoch          : 4
+INFO:ssl_experiment:    loss           : 0.1560268264808287
+INFO:ssl_experiment:    average_std    : 0.013212303958270447
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 0.40623774204530944
+INFO:ssl_experiment:Saving checkpoint on epoch 4 ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 5 [0/3045 (0%)] Loss: 0.132336
+DEBUG:ssl_experiment:Train Epoch: 5 [152/3045 (5%)] Loss: 0.164681
+DEBUG:ssl_experiment:Train Epoch: 5 [304/3045 (10%)] Loss: 0.116195
+DEBUG:ssl_experiment:Train Epoch: 5 [456/3045 (15%)] Loss: 0.120551
+DEBUG:ssl_experiment:Train Epoch: 5 [608/3045 (20%)] Loss: 0.146632
+DEBUG:ssl_experiment:Train Epoch: 5 [760/3045 (25%)] Loss: 0.160561
+DEBUG:ssl_experiment:Train Epoch: 5 [912/3045 (30%)] Loss: 0.154370
+DEBUG:ssl_experiment:Train Epoch: 5 [1064/3045 (35%)] Loss: 0.099578
+DEBUG:ssl_experiment:Train Epoch: 5 [1216/3045 (40%)] Loss: 0.111176
+DEBUG:ssl_experiment:Train Epoch: 5 [1368/3045 (45%)] Loss: 0.116503
+DEBUG:ssl_experiment:Train Epoch: 5 [1520/3045 (50%)] Loss: 0.150993
+DEBUG:ssl_experiment:Train Epoch: 5 [1672/3045 (55%)] Loss: 0.127879
+DEBUG:ssl_experiment:Train Epoch: 5 [1824/3045 (60%)] Loss: 0.123024
+DEBUG:ssl_experiment:Train Epoch: 5 [1976/3045 (65%)] Loss: 0.119903
+DEBUG:ssl_experiment:Train Epoch: 5 [2128/3045 (70%)] Loss: 0.117828
+DEBUG:ssl_experiment:Train Epoch: 5 [2280/3045 (75%)] Loss: 0.106707
+DEBUG:ssl_experiment:Train Epoch: 5 [2432/3045 (80%)] Loss: 0.126874
+DEBUG:ssl_experiment:Train Epoch: 5 [2584/3045 (85%)] Loss: 0.110500
+DEBUG:ssl_experiment:Train Epoch: 5 [2736/3045 (90%)] Loss: 0.122963
+DEBUG:ssl_experiment:Train Epoch: 5 [2888/3045 (95%)] Loss: 0.092990
+DEBUG:ssl_experiment:Train Epoch: 5 [3040/3045 (100%)] Loss: 0.144503
+INFO:ssl_experiment:    epoch          : 5
+INFO:ssl_experiment:    loss           : 0.13208796180821405
+INFO:ssl_experiment:    average_std    : 0.013330918962475407
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 0.40645327932130065
+INFO:ssl_experiment:Saving checkpoint on epoch 5 ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 6 [0/3045 (0%)] Loss: 0.118587
+DEBUG:ssl_experiment:Train Epoch: 6 [152/3045 (5%)] Loss: 0.130930
+DEBUG:ssl_experiment:Train Epoch: 6 [304/3045 (10%)] Loss: 0.108225
+DEBUG:ssl_experiment:Train Epoch: 6 [456/3045 (15%)] Loss: 0.136608
+DEBUG:ssl_experiment:Train Epoch: 6 [608/3045 (20%)] Loss: 0.127486
+DEBUG:ssl_experiment:Train Epoch: 6 [760/3045 (25%)] Loss: 0.089934
+DEBUG:ssl_experiment:Train Epoch: 6 [912/3045 (30%)] Loss: 0.113397
+DEBUG:ssl_experiment:Train Epoch: 6 [1064/3045 (35%)] Loss: 0.100124
+DEBUG:ssl_experiment:Train Epoch: 6 [1216/3045 (40%)] Loss: 0.087670
+DEBUG:ssl_experiment:Train Epoch: 6 [1368/3045 (45%)] Loss: 0.104929
+DEBUG:ssl_experiment:Train Epoch: 6 [1520/3045 (50%)] Loss: 0.101348
+DEBUG:ssl_experiment:Train Epoch: 6 [1672/3045 (55%)] Loss: 0.093667
+DEBUG:ssl_experiment:Train Epoch: 6 [1824/3045 (60%)] Loss: 0.086257
+DEBUG:ssl_experiment:Train Epoch: 6 [1976/3045 (65%)] Loss: 0.102311
+DEBUG:ssl_experiment:Train Epoch: 6 [2128/3045 (70%)] Loss: 0.106468
+DEBUG:ssl_experiment:Train Epoch: 6 [2280/3045 (75%)] Loss: 0.100737
+DEBUG:ssl_experiment:Train Epoch: 6 [2432/3045 (80%)] Loss: 0.106568
+DEBUG:ssl_experiment:Train Epoch: 6 [2584/3045 (85%)] Loss: 0.109761
+DEBUG:ssl_experiment:Train Epoch: 6 [2736/3045 (90%)] Loss: 0.108838
+DEBUG:ssl_experiment:Train Epoch: 6 [2888/3045 (95%)] Loss: 0.091913
+DEBUG:ssl_experiment:Train Epoch: 6 [3040/3045 (100%)] Loss: 0.083997
+INFO:ssl_experiment:    epoch          : 6
+INFO:ssl_experiment:    loss           : 0.114946874183387
+INFO:ssl_experiment:    average_std    : 0.013399785314189585
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 0.4407320145055612
+INFO:ssl_experiment:Saving checkpoint on epoch 6 ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 7 [0/3045 (0%)] Loss: 0.082994
+DEBUG:ssl_experiment:Train Epoch: 7 [152/3045 (5%)] Loss: 0.105059
+DEBUG:ssl_experiment:Train Epoch: 7 [304/3045 (10%)] Loss: 0.141165
+DEBUG:ssl_experiment:Train Epoch: 7 [456/3045 (15%)] Loss: 0.107507
+DEBUG:ssl_experiment:Train Epoch: 7 [608/3045 (20%)] Loss: 0.100303
+DEBUG:ssl_experiment:Train Epoch: 7 [760/3045 (25%)] Loss: 0.114303
+DEBUG:ssl_experiment:Train Epoch: 7 [912/3045 (30%)] Loss: 0.106316
+DEBUG:ssl_experiment:Train Epoch: 7 [1064/3045 (35%)] Loss: 0.099717
+DEBUG:ssl_experiment:Train Epoch: 7 [1216/3045 (40%)] Loss: 0.133315
+DEBUG:ssl_experiment:Train Epoch: 7 [1368/3045 (45%)] Loss: 0.101904
+DEBUG:ssl_experiment:Train Epoch: 7 [1520/3045 (50%)] Loss: 0.100382
+DEBUG:ssl_experiment:Train Epoch: 7 [1672/3045 (55%)] Loss: 0.082384
+DEBUG:ssl_experiment:Train Epoch: 7 [1824/3045 (60%)] Loss: 0.120029
+DEBUG:ssl_experiment:Train Epoch: 7 [1976/3045 (65%)] Loss: 0.090477
+DEBUG:ssl_experiment:Train Epoch: 7 [2128/3045 (70%)] Loss: 0.079717
+DEBUG:ssl_experiment:Train Epoch: 7 [2280/3045 (75%)] Loss: 0.102640
+DEBUG:ssl_experiment:Train Epoch: 7 [2432/3045 (80%)] Loss: 0.094071
+DEBUG:ssl_experiment:Train Epoch: 7 [2584/3045 (85%)] Loss: 0.116475
+DEBUG:ssl_experiment:Train Epoch: 7 [2736/3045 (90%)] Loss: 0.077941
+DEBUG:ssl_experiment:Train Epoch: 7 [2888/3045 (95%)] Loss: 0.084444
+DEBUG:ssl_experiment:Train Epoch: 7 [3040/3045 (100%)] Loss: 0.081642
+INFO:ssl_experiment:    epoch          : 7
+INFO:ssl_experiment:    loss           : 0.11111768622361184
+INFO:ssl_experiment:    average_std    : 0.013453612072249547
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 0.4599563109450101
+INFO:ssl_experiment:Saving checkpoint on epoch 7 ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 8 [0/3045 (0%)] Loss: 0.118242
+DEBUG:ssl_experiment:Train Epoch: 8 [152/3045 (5%)] Loss: 0.093207
+DEBUG:ssl_experiment:Train Epoch: 8 [304/3045 (10%)] Loss: 0.149280
+DEBUG:ssl_experiment:Train Epoch: 8 [456/3045 (15%)] Loss: 0.105427
+DEBUG:ssl_experiment:Train Epoch: 8 [608/3045 (20%)] Loss: 0.102912
+DEBUG:ssl_experiment:Train Epoch: 8 [760/3045 (25%)] Loss: 0.106410
+DEBUG:ssl_experiment:Train Epoch: 8 [912/3045 (30%)] Loss: 0.118308
+DEBUG:ssl_experiment:Train Epoch: 8 [1064/3045 (35%)] Loss: 0.090033
+DEBUG:ssl_experiment:Train Epoch: 8 [1216/3045 (40%)] Loss: 0.086893
+DEBUG:ssl_experiment:Train Epoch: 8 [1368/3045 (45%)] Loss: 0.118776
+DEBUG:ssl_experiment:Train Epoch: 8 [1520/3045 (50%)] Loss: 0.107978
+DEBUG:ssl_experiment:Train Epoch: 8 [1672/3045 (55%)] Loss: 0.139592
+DEBUG:ssl_experiment:Train Epoch: 8 [1824/3045 (60%)] Loss: 0.083181
+DEBUG:ssl_experiment:Train Epoch: 8 [1976/3045 (65%)] Loss: 0.143249
+DEBUG:ssl_experiment:Train Epoch: 8 [2128/3045 (70%)] Loss: 0.117009
+DEBUG:ssl_experiment:Train Epoch: 8 [2280/3045 (75%)] Loss: 0.093724
+DEBUG:ssl_experiment:Train Epoch: 8 [2432/3045 (80%)] Loss: 0.107984
+DEBUG:ssl_experiment:Train Epoch: 8 [2584/3045 (85%)] Loss: 0.101693
+DEBUG:ssl_experiment:Train Epoch: 8 [2736/3045 (90%)] Loss: 0.105739
+DEBUG:ssl_experiment:Train Epoch: 8 [2888/3045 (95%)] Loss: 0.113144
+DEBUG:ssl_experiment:Train Epoch: 8 [3040/3045 (100%)] Loss: 0.104544
+INFO:ssl_experiment:    epoch          : 8
+INFO:ssl_experiment:    loss           : 0.10902999440339595
+INFO:ssl_experiment:    average_std    : 0.013563627953685466
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 0.4878502649729359
+INFO:ssl_experiment:Saving checkpoint on epoch 8 ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 9 [0/3045 (0%)] Loss: 0.108734
+DEBUG:ssl_experiment:Train Epoch: 9 [152/3045 (5%)] Loss: 0.084149
+DEBUG:ssl_experiment:Train Epoch: 9 [304/3045 (10%)] Loss: 0.121982
+DEBUG:ssl_experiment:Train Epoch: 9 [456/3045 (15%)] Loss: 0.098164
+DEBUG:ssl_experiment:Train Epoch: 9 [608/3045 (20%)] Loss: 0.096681
+DEBUG:ssl_experiment:Train Epoch: 9 [760/3045 (25%)] Loss: 0.105927
+DEBUG:ssl_experiment:Train Epoch: 9 [912/3045 (30%)] Loss: 0.087819
+DEBUG:ssl_experiment:Train Epoch: 9 [1064/3045 (35%)] Loss: 0.147055
+DEBUG:ssl_experiment:Train Epoch: 9 [1216/3045 (40%)] Loss: 0.108394
+DEBUG:ssl_experiment:Train Epoch: 9 [1368/3045 (45%)] Loss: 0.118670
+DEBUG:ssl_experiment:Train Epoch: 9 [1520/3045 (50%)] Loss: 0.108525
+DEBUG:ssl_experiment:Train Epoch: 9 [1672/3045 (55%)] Loss: 0.106731
+DEBUG:ssl_experiment:Train Epoch: 9 [1824/3045 (60%)] Loss: 0.098598
+DEBUG:ssl_experiment:Train Epoch: 9 [1976/3045 (65%)] Loss: 0.111561
+DEBUG:ssl_experiment:Train Epoch: 9 [2128/3045 (70%)] Loss: 0.090580
+DEBUG:ssl_experiment:Train Epoch: 9 [2280/3045 (75%)] Loss: 0.107196
+DEBUG:ssl_experiment:Train Epoch: 9 [2432/3045 (80%)] Loss: 0.133678
+DEBUG:ssl_experiment:Train Epoch: 9 [2584/3045 (85%)] Loss: 0.131205
+DEBUG:ssl_experiment:Train Epoch: 9 [2736/3045 (90%)] Loss: 0.115853
+DEBUG:ssl_experiment:Train Epoch: 9 [2888/3045 (95%)] Loss: 0.151483
+DEBUG:ssl_experiment:Train Epoch: 9 [3040/3045 (100%)] Loss: 0.110438
+INFO:ssl_experiment:    epoch          : 9
+INFO:ssl_experiment:    loss           : 0.11241706188382773
+INFO:ssl_experiment:    average_std    : 0.013738233383824476
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 0.4798708301342257
+INFO:ssl_experiment:Saving checkpoint on epoch 9 ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 10 [0/3045 (0%)] Loss: 0.117343
+DEBUG:ssl_experiment:Train Epoch: 10 [152/3045 (5%)] Loss: 0.092660
+DEBUG:ssl_experiment:Train Epoch: 10 [304/3045 (10%)] Loss: 0.126489
+DEBUG:ssl_experiment:Train Epoch: 10 [456/3045 (15%)] Loss: 0.119684
+DEBUG:ssl_experiment:Train Epoch: 10 [608/3045 (20%)] Loss: 0.089956
+DEBUG:ssl_experiment:Train Epoch: 10 [760/3045 (25%)] Loss: 0.089454
+DEBUG:ssl_experiment:Train Epoch: 10 [912/3045 (30%)] Loss: 0.121013
+DEBUG:ssl_experiment:Train Epoch: 10 [1064/3045 (35%)] Loss: 0.115495
+DEBUG:ssl_experiment:Train Epoch: 10 [1216/3045 (40%)] Loss: 0.095142
+DEBUG:ssl_experiment:Train Epoch: 10 [1368/3045 (45%)] Loss: 0.166058
+DEBUG:ssl_experiment:Train Epoch: 10 [1520/3045 (50%)] Loss: 0.131586
+DEBUG:ssl_experiment:Train Epoch: 10 [1672/3045 (55%)] Loss: 0.117710
+DEBUG:ssl_experiment:Train Epoch: 10 [1824/3045 (60%)] Loss: 0.106928
+DEBUG:ssl_experiment:Train Epoch: 10 [1976/3045 (65%)] Loss: 0.087985
+DEBUG:ssl_experiment:Train Epoch: 10 [2128/3045 (70%)] Loss: 0.138509
+DEBUG:ssl_experiment:Train Epoch: 10 [2280/3045 (75%)] Loss: 0.141848
+DEBUG:ssl_experiment:Train Epoch: 10 [2432/3045 (80%)] Loss: 0.097795
+DEBUG:ssl_experiment:Train Epoch: 10 [2584/3045 (85%)] Loss: 0.114161
+DEBUG:ssl_experiment:Train Epoch: 10 [2736/3045 (90%)] Loss: 0.108140
+DEBUG:ssl_experiment:Train Epoch: 10 [2888/3045 (95%)] Loss: 0.103445
+DEBUG:ssl_experiment:Train Epoch: 10 [3040/3045 (100%)] Loss: 0.109687
+INFO:ssl_experiment:    epoch          : 10
+INFO:ssl_experiment:    loss           : 0.11596618389652671
+INFO:ssl_experiment:    average_std    : 0.013946480285345725
+INFO:ssl_experiment:    reference_std  : 0.022097086912078262
+INFO:ssl_experiment:    val_loss       : 0.49104317031938355
+INFO:ssl_experiment:Saving checkpoint on epoch 10 ...
+INFO:ssl_experiment:Saving metric tracker ...
+DEBUG:ssl_experiment:Train Epoch: 11 [0/3045 (0%)] Loss: 0.125253
+DEBUG:ssl_experiment:Train Epoch: 11 [152/3045 (5%)] Loss: 0.115631
+DEBUG:ssl_experiment:Train Epoch: 11 [304/3045 (10%)] Loss: 0.147440
+DEBUG:ssl_experiment:Train Epoch: 11 [456/3045 (15%)] Loss: 0.103797
+DEBUG:ssl_experiment:Train Epoch: 11 [608/3045 (20%)] Loss: 0.117758
+DEBUG:ssl_experiment:Train Epoch: 11 [760/3045 (25%)] Loss: 0.117591
+DEBUG:ssl_experiment:Train Epoch: 11 [912/3045 (30%)] Loss: 0.133599
+DEBUG:ssl_experiment:Train Epoch: 11 [1064/3045 (35%)] Loss: 0.103906
+DEBUG:ssl_experiment:Train Epoch: 11 [1216/3045 (40%)] Loss: 0.113327
+DEBUG:ssl_experiment:Train Epoch: 11 [1368/3045 (45%)] Loss: 0.102717
+DEBUG:ssl_experiment:Train Epoch: 11 [1520/3045 (50%)] Loss: 0.119649
+DEBUG:ssl_experiment:Train Epoch: 11 [1672/3045 (55%)] Loss: 0.117580
+DEBUG:ssl_experiment:Train Epoch: 11 [1824/3045 (60%)] Loss: 0.106799
+DEBUG:ssl_experiment:Train Epoch: 11 [1976/3045 (65%)] Loss: 0.142895
+DEBUG:ssl_experiment:Train Epoch: 11 [2128/3045 (70%)] Loss: 0.163451
+DEBUG:ssl_experiment:Train Epoch: 11 [2280/3045 (75%)] Loss: 0.115245
+DEBUG:ssl_experiment:Train Epoch: 11 [2432/3045 (80%)] Loss: 0.122061
+DEBUG:ssl_experiment:Train Epoch: 11 [2584/3045 (85%)] Loss: 0.124136
+DEBUG:ssl_experiment:Train Epoch: 11 [2736/3045 (90%)] Loss: 0.123038
+slurmstepd: error: *** JOB 62793470 ON gl1005 CANCELLED AT 2023-10-24T10:19:19 DUE TO TIME LIMIT ***
