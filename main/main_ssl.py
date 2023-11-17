@@ -1,14 +1,13 @@
 import argparse
 import collections
 import torch
-import Dataloader as module_dataloader
+import datasets.Dataloader as module_dataloader
 # import byol as module_arch
-import model_DINO as module_arch
-from parse_config import ConfigParser
-from trainer_ssl import BYOL_Trainer,DINO_Trainer
-import main_utils as module_utils
-import logger_utils as module_logger
-
+import model.pre_training.DINO as module_arch
+from utils.parse_config import ConfigParser
+from trainer.trainer_ssl import BYOL_Trainer,DINO_Trainer
+import utils.main_utils as module_utils
+import utils.logger_utils as module_logger
 
 def main(config):
     # fix the random seed

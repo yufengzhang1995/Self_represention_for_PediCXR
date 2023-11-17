@@ -1,15 +1,15 @@
 import argparse
 import collections
+import importlib
 import torch
-import data_loader as module_dataloader
-import models as module_arch
+import datasets.Dataloader as module_dataloader
+import model.downstream.model_downstream as module_arch
 import torchvision.models as module_model
 import torch.optim as module_optimizer
 import torch.optim.lr_scheduler as module_scheduler
-from parse_config import ConfigParser
-import main_utils as module_utils
-import logger_utils as module_logger
-import importlib
+from utils.parse_config import ConfigParser
+import utils.main_utils as module_utils
+import utils.logger_utils as module_logger
 import utils.augmentations as module_augment
 import os
 

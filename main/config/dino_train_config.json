@@ -1,0 +1,93 @@
+{
+    "name": "DINO_Train",
+    "n_gpu": 2,
+
+    "arch": {
+        "type": "DINO",
+        "args": {
+            "model_name": "vit_small",
+            "patch_size": 16,
+            "out_dim": 65536,
+            "use_bn_in_head":false,
+            "norm_last_layer": true,
+            "drop_path_rate": 0.1
+        }
+    },
+    "loss":{
+        "type": "DINOLoss",
+        "args": {
+            "warmup_teacher_temp": 0.02,
+            "teacher_temp": 0.04,
+            "warmup_teacher_temp_epochs": 2
+        }
+    },
+
+    "data_loader": {
+        "type": "MIMIC_CXRDataLoader",
+        "args":{
+            "data_dir": "/nfs/turbo/med-kayvan-lab/Projects/HeartFailure/Code/Yufeng/multimodal/mimic_cxr_note_chexpert.csv",
+            "batch_size": 64,
+            "image_size": 256,
+            "split_ratio": 0.2,
+            "num_workers": 0,
+            "split_method": "patient-wise"
+        }
+    },
+
+    "optimizer": {
+        "type": "AdamW",
+        "args":{
+        }
+    },
+
+    "augmentation":{
+        "type": "DINOAugmentation",
+        "args": {
+            "global_crops_scale": [0.8, 1.0],
+            "local_crops_scale": [0.4, 0.6],
+            "local_crops_number": 4
+        }
+    },
+
+    "lr_scheduler": {
+        "type": "cosine_scheduler",
+        "args": {
+            "base_value": 5e-4,
+            "final_value": 1e-6,
+            "warmup_epochs": 2,
+            "start_warmup_value": 5e-4
+        }
+    },
+
+    "momentum_scheduler": {
+        "type": "cosine_scheduler",
+        "args": {
+            "base_value": 0.9995,
+            "final_value": 1
+        }
+    },
+
+    "wd_scheduler": {
+        "type": "cosine_scheduler",
+        "args": {
+            "base_value": 0.01,
+            "final_value": 0.04
+        }
+    },
+
+    "trainer": {
+        "epochs": 20,
+        "use_fp16": false,
+        "clip_grad": 3, 
+        "freeze_last_layer": 1, 
+
+        "save_dir": "/nfs/turbo/med-kayvan-lab/Projects/HeartFailure/Data/Processed/Yufeng/CXR_representation_Results",
+        "save_period": 1,
+        "verbosity": 2,
+        
+        "monitor": "min val_loss",
+        "early_stop": 10,
+
+        "tensorboard": true
+    }
+}
