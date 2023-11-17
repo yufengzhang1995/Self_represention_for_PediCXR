@@ -1,6 +1,6 @@
 from trainer_ssl import SSL_BaseTrainer
-import logger_utils as module_log
-import ddp_utils as ddp_util_module
+import utils.logger_utils as module_log
+import utils.ddp_utils as ddp_util_module
 import torch
 import sys, math
 import torch.nn.functional as torch_functional

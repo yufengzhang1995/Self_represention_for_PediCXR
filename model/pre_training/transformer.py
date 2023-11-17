@@ -3,7 +3,6 @@
 The model comes from the timm library.
 https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/vision_transformer.py
 """
-from email.mime import image
 import math
 from functools import partial
 

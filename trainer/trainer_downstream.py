@@ -3,15 +3,15 @@ from torch.nn.functional import softmax
 from abc import abstractmethod
 import numpy as np
 import metric as module_metric
-import logger_utils as module_log
-import loss_trams as module_loss
+import utils.logger_utils as module_log
+import utils.loss_trams as module_loss
 import pandas as pd
 import glob, os, copy
 
-from coral_pytorch.losses import corn_loss
-from coral_pytorch.dataset import corn_label_from_logits
+# from coral_pytorch.losses import corn_loss
+# from coral_pytorch.dataset import corn_label_from_logits
 
-from utils.confusion_utils import cross_entropy_over_annotators,confusion_matrix_estimators
+from utils.confusion_utils import cross_entropy_over_annotators
 
 # Class Inheritance of trainer_trams.py
 # |--BaseTrainer

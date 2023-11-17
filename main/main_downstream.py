@@ -2,7 +2,7 @@ import argparse
 import collections
 import importlib
 import torch
-import datasets.Dataloader as module_dataloader
+import CXR_datasets.Dataloader as module_dataloader
 import model.downstream.model_downstream as module_arch
 import torchvision.models as module_model
 import torch.optim as module_optimizer

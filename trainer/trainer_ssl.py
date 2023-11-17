@@ -1,12 +1,12 @@
 import torch
 from abc import abstractmethod
 from numpy import inf
-
+import utils.ddp_utils as ddp_util_module
 import metric as module_metric
-import logger_utils as module_log
+import utils.logger_utils as module_log
 import torch.nn.functional as torch_functional
 import math
-import main_utils as util_module
+import utils.main_utils as util_module
 
 
 # Class Inheritance of trainer_ssl.py

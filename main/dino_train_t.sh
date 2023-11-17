@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=SSL_Resent50
+#SBATCH --job-name=SSL_vit
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=12GB
@@ -12,4 +12,4 @@
 #SBATCH --output=./Logs/%x-%j.log
 #SBATCH --error=./Logs/%x-%j.log
 
-python main_ssl.py -c "byol_train_config.json"
+python main_ssl.py -c=dino_train_config.json

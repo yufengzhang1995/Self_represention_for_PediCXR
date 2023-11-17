@@ -6,7 +6,7 @@ import torch.utils.data.sampler as module_sampler
 from torchvision import transforms
 import torchxrayvision.datasets as module_xrv_data
 import torch
-from Dataset import MIMIC_CXRDataset
+from CXR_datasets.Dataset import MIMIC_CXRDataset
 
 def apply_transforms(sample, transform, seed=None, transform_seg=False):
     if seed is None:
