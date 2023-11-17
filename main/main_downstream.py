@@ -10,7 +10,7 @@ from parse_config import ConfigParser
 import main_utils as module_utils
 import logger_utils as module_logger
 import importlib
-import augmentations as module_augment
+import utils.augmentations as module_augment
 import os
 
 def main(config, fold=-1):
@@ -205,7 +205,7 @@ def main(config, fold=-1):
         
         # Include the case for confusion matrix based training
         if config['trainer']['type'] == 'Confusion_Trainer':
-            from confusion_utils import confusion_matrix_estimators
+            from utils.confusion_utils import confusion_matrix_estimators
             # initialize the confusion matrix parameters
             confusion_matrix = confusion_matrix_estimators(
                 num_annotators=data_loader.dataset.get_num_reviewer(),

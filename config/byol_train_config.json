@@ -20,7 +20,7 @@
     "data_loader": {
         "type": "MIMIC_CXRDataLoader",
         "args":{
-            "data_dir": "/nfs/turbo/med-kayvan-lab/Projects/HeartFailure/Code/Yufeng/multimodal/mimic_cxr_note_chexpert.csv",
+            "data_dir": "/nfs/turbo/med-kayvan-lab/Projects/HeartFailure/Code/Yufeng/multimodal_CXR_Note_data/mimic_cxr_note_chexpert.csv",
             "batch_size": 64,
             "image_size": 224,
             "split_ratio": 0.2,

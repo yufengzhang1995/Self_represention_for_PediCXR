@@ -7,7 +7,7 @@ import platform
 from pathlib import Path, PureWindowsPath
 import json, os
 import collections
-import customized_scheduler as module_scheduler
+import utils.customized_scheduler as module_scheduler
 import torch.distributed as module_dist
 
 

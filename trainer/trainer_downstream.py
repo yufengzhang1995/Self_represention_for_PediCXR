@@ -11,7 +11,7 @@ import glob, os, copy
 from coral_pytorch.losses import corn_loss
 from coral_pytorch.dataset import corn_label_from_logits
 
-from confusion_utils import cross_entropy_over_annotators,confusion_matrix_estimators
+from utils.confusion_utils import cross_entropy_over_annotators,confusion_matrix_estimators
 
 # Class Inheritance of trainer_trams.py
 # |--BaseTrainer

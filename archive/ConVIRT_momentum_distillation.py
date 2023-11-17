@@ -4,7 +4,7 @@ import copy
 from functools import wraps
 import torch.nn.functional as F
 import torchvision.models as vision_models
-import augmentations as module_augment
+import utils.augmentations as module_augment
 
 
 def singleton(cache_key):
