@@ -1,3 +1,3 @@
-# Self_represention_for_PediCXR
+# Self Representation for PediCXR
 
 ## Author Yufeng
