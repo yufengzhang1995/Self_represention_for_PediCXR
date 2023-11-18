@@ -1,4 +1,4 @@
-from trainer_ssl import SSL_BaseTrainer
+from trainer.trainer_ssl import SSL_BaseTrainer
 import utils.logger_utils as module_log
 import utils.ddp_utils as ddp_util_module
 import torch

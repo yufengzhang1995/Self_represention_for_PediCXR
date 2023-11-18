@@ -3,8 +3,8 @@ from pathlib import Path
 from functools import reduce, partial
 from operator import getitem
 from datetime import datetime
-from logger_utils import setup_logging_config
-from main_utils import read_json, write_json
+from utils.logger_utils import setup_logging_config
+from utils.main_utils import read_json, write_json
 
 
 class ConfigParser:
@@ -87,7 +87,7 @@ class ConfigParser:
             test_only = False
         return cls(config, get_id_fun, resume, test_only, modification, save=save_config)
 
-    def init_obj(self, name, module, *args, **kwargs):
+    def init_obj(self, name, module, *args, **kwargs): 
         """
         Finds a function handle with the name given as 'type' in config, and returns the
         instance initialized with corresponding arguments given.

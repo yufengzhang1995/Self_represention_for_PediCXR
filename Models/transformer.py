@@ -3,6 +3,7 @@
 The model comes from the timm library.
 https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/vision_transformer.py
 """
+from email.mime import image
 import math
 from functools import partial
 
@@ -50,6 +51,7 @@ def _no_grad_trunc_normal_(tensor, mean, std, a, b):
 def trunc_normal_(tensor, mean=0., std=1., a=-2., b=2.):
     # type: (torch.Tensor, float, float, float, float) -> torch.Tensor
     return _no_grad_trunc_normal_(tensor, mean, std, a, b)
+
 
 
 def drop_path(x, drop_prob: float = 0., training: bool = False):

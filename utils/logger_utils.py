@@ -3,7 +3,7 @@ from datetime import datetime
 import logging
 import logging.config
 from pathlib import Path
-from main_utils import read_json, is_main_process
+from utils.main_utils import read_json, is_main_process
 
 
 class NoOp:

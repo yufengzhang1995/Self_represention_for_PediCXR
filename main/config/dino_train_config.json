@@ -1,6 +1,5 @@
 {
     "name": "DINO_Train",
-    "n_gpu": 2,
 
     "arch": {
         "type": "DINO",
@@ -23,14 +22,13 @@
     },
 
     "data_loader": {
-        "type": "MIMIC_CXRDataLoader",
+        "type": "Dist_MIMIC_CXRDataLoader",
         "args":{
-            "data_dir": "/nfs/turbo/med-kayvan-lab/Projects/HeartFailure/Code/Yufeng/multimodal/mimic_cxr_note_chexpert.csv",
+            "data_dir": "/nfs/turbo/med-kayvan-lab/Projects/HeartFailure/Code/Yufeng/multimodal_CXR_Note_data/mimic_cxr_note_chexpert.csv",
             "batch_size": 64,
             "image_size": 256,
-            "split_ratio": 0.2,
-            "num_workers": 0,
-            "split_method": "patient-wise"
+            "validation_split": 0.15,
+            "num_workers": 0
         }
     },
 

@@ -2,7 +2,7 @@ import torch
 from abc import abstractmethod
 from numpy import inf
 import utils.ddp_utils as ddp_util_module
-import metric as module_metric
+import trainer.metric as module_metric
 import utils.logger_utils as module_log
 import torch.nn.functional as torch_functional
 import math

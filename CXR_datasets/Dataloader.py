@@ -7,6 +7,7 @@ from torchvision import transforms
 import torchxrayvision.datasets as module_xrv_data
 import torch
 from CXR_datasets.Dataset import MIMIC_CXRDataset
+import random
 
 def apply_transforms(sample, transform, seed=None, transform_seg=False):
     if seed is None:

@@ -1,5 +1,5 @@
 import torch.nn as nn
-import model.pre_training.transformer as module_vits
+import Models.DINO as module_vits
 import torch
 import torch.nn.functional as F
 import numpy as np

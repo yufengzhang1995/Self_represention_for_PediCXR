@@ -3,7 +3,7 @@ import collections
 import importlib
 import torch
 import CXR_datasets.Dataloader as module_dataloader
-import model.downstream.model_downstream as module_arch
+import Models.model_downstream as module_arch
 import torchvision.models as module_model
 import torch.optim as module_optimizer
 import torch.optim.lr_scheduler as module_scheduler

@@ -4,7 +4,7 @@ import torch
 import CXR_datasets.Dataloader as module_dataloader
 # import byol as module_arch
 
-import model.pre_training.DINO as module_arch
+import archive.DINO as module_arch
 from utils.parse_config import ConfigParser
 from trainer.trainer_ssl import BYOL_Trainer,DINO_Trainer
 import utils.main_utils as module_utils
